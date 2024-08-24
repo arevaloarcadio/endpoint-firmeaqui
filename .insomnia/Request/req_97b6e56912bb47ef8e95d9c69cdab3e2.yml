@@ -1,0 +1,56 @@
+_id: req_97b6e56912bb47ef8e95d9c69cdab3e2
+type: Request
+parentId: wrk_6960a2128bb443a4ac5e787e3ac09661
+modified: 1724452230182
+created: 1724421630160
+url: http://localhost:8000/signature_requests/sign
+name: Firmar
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a513852954604f97b43347540ce56184
+      name: sign_document_ids[]
+      value: "1"
+      description: ""
+    - id: pair_d9fb65f0a2e0426ea3a6c10661abed84
+      name: document_id
+      value: "1"
+      description: ""
+    - id: pair_64ef912359e5495e818f80a806a40c19
+      name: image_sign
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\xampp\htdocs\firmeaqui\storage\app\storage\firmas\1\1720371650568.png
+    - id: pair_cc2a77b134c344a9825a144872184a5a
+      name: email
+      value: arevaloarcadio.96@gmail.com
+      description: ""
+    - id: pair_7ed6d6fd78164c6189943a34dc00e37d
+      name: ip
+      value: 192.168.0.1
+      description: ""
+    - id: pair_e5736d92b99647ac9e0b415ef325375e
+      name: browser
+      value: Google Chrome
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_c63b84e389c046eba61f481312d551bb
+  - id: pair_8f0ee94e91164d6d96ab4874f8c8da84
+    name: Authorization
+    value: Bearer 6|fEaXUsBILIdexRENEJGjkNNxBc9YxvRtg3j29aTVd3a87a78
+    description: ""
+authentication: {}
+metaSortKey: -1724421630160
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

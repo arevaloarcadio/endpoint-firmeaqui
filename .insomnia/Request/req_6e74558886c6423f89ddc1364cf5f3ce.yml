@@ -1,0 +1,34 @@
+_id: req_6e74558886c6423f89ddc1364cf5f3ce
+type: Request
+parentId: wrk_6960a2128bb443a4ac5e787e3ac09661
+modified: 1724333023923
+created: 1723907312433
+url: http://localhost:8000/auth/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"email": "arevaloarcadio.96@gmail.com",
+    	"password": "123456**",
+    	"device_name": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/127.0.0.0Safari/537.36"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - id: pair_5549cd731b414ea3ad045afc74a1c67b
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1723907312433
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

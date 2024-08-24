@@ -1,0 +1,38 @@
+_id: req_222d93987219454fb49c5216ef0c3fd5
+type: Request
+parentId: wrk_6960a2128bb443a4ac5e787e3ac09661
+modified: 1723907309736
+created: 1723905938204
+url: http://localhost:8000/auth/register
+name: Registro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "Arcadio ssss",
+    	"email": "arevaloarcadio.96@gmail.com",
+    	"password": "123456**",
+    	"password_confirmation": "123456**",
+    	"device_name": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/127.0.0.0Safari/537.36"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_afc2dcfc43194af38a1cdda242aac189
+  - id: pair_2c0c876b070e4ad4922db9bc874077ea
+    name: device_name
+    value: "'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+      like Gecko) Chrome/127.0.0.0 Safari/537.36"
+    description: ""
+authentication: {}
+metaSortKey: -1723905938204
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

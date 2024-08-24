@@ -1,0 +1,57 @@
+_id: req_f157dcf2420d4849af430f3d277dff3e
+type: Request
+parentId: wrk_6960a2128bb443a4ac5e787e3ac09661
+modified: 1724451170312
+created: 1724280685511
+url: http://localhost:8000/signature_requests
+name: Registrar Firmas de documento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sign_documents": [
+    		{
+    			"description": "Arcadio",
+    			"percentage_left": 50,
+    			"percentage_top": 50,
+    			"height": 50,
+    			"width": 100,
+    			"num_page": 1
+    		},
+    		{
+    			"description": "Jose",
+    			"percentage_left": 50,
+    			"percentage_top": 50,
+    			"height": 50,
+    			"width": 100,
+    			"num_page": 2
+    		}
+    	],
+    	"document_id": "1",
+    	"subject": "Prueba",
+    	"message": "Firmas",
+    	"document_name" : "Prueba"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c52604f4f9f945ad826ba1436adaa502
+  - id: pair_e138dbe5a1d049a09cd3c73a8cc301b7
+    name: Authorization
+    value: Bearer 6|fEaXUsBILIdexRENEJGjkNNxBc9YxvRtg3j29aTVd3a87a78
+    description: ""
+authentication:
+  type: bearer
+  token: 5|pI5S7dhPCODBP4uu0PwieG8cbOQevfTSnEL6ppqob281a29
+  disabled: true
+metaSortKey: -1724280685511
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

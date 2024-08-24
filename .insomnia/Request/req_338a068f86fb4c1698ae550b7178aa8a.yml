@@ -1,0 +1,46 @@
+_id: req_338a068f86fb4c1698ae550b7178aa8a
+type: Request
+parentId: wrk_6960a2128bb443a4ac5e787e3ac09661
+modified: 1724339977430
+created: 1724182549361
+url: http://localhost:8000/documents
+name: Subir Documento (Retorna imagenes)
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_2f75b513fb31490cbab82d5df70d9a9f
+      name: document
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\Arca\Documents\Prueba. de Firmaaqui.pdf
+      disabled: false
+    - id: pair_4f16cfdc50b04dd19819a3d23eab4593
+      name: document_name
+      value: Prueba
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_200fcf219d02453bb01efee1b3604c64
+  - id: pair_44d916885d7849c2805bdfc098de5537
+    name: Authorization
+    value: Bearer 6|fEaXUsBILIdexRENEJGjkNNxBc9YxvRtg3j29aTVd3a87a78
+    description: ""
+  - id: pair_760527db2a9e48d2ab97c34056206579
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1724182549361
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

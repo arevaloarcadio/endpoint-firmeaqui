@@ -1,0 +1,42 @@
+_id: req_abffa5057bce492693967cca8e631ff7
+type: Request
+parentId: wrk_6960a2128bb443a4ac5e787e3ac09661
+modified: 1724357860917
+created: 1724357476226
+url: http://localhost:8000/sign_documents/update_email
+name: Asignar Correo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sign_documents": [
+    		{
+    			"id": 1,
+    			"email": "arevaloarcadio.96@gmail.com"
+    		},
+    		{
+    			"id": 2,
+    			"email": "arevaloarcadio@gmail.com"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6da3f37c8e10458f9518853a1ed561d6
+  - id: pair_46046619a2da4504bf49371e2b58dc6b
+    name: Authorization
+    value: Bearer 6|fEaXUsBILIdexRENEJGjkNNxBc9YxvRtg3j29aTVd3a87a78
+    description: ""
+authentication: {}
+metaSortKey: -1724357476226
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
